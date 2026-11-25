@@ -1,0 +1,39 @@
+{
+  "listen_port": 40010,
+  "check_interval": 60,
+  "gemini_interval": 600,
+  "health_ttl": 360,
+  "rotation_method": "registration",
+  "rotation_delay": 20,
+  "max_backoff": 900,
+  "max_rotations_per_hour": 12,
+  "bad_ip_ttl": 3600,
+  "deny_regions": [
+    "RU"
+  ],
+  "nodes": [
+    {
+      "name": "warp1",
+      "container": "wgp-warp1",
+      "port": 41011
+    },
+    {
+      "name": "warp2",
+      "container": "wgp-warp2",
+      "port": 41012
+    },
+    {
+      "name": "warp3",
+      "container": "wgp-warp3",
+      "port": 41013
+    }
+  ],
+  "bad_threshold": 2,
+  "fail_threshold": 3,
+  "confirmation_delay": 5,
+  "min_speed_kib": 0,
+  "probe_mb": 4,
+  "slow_threshold": 2,
+  "speed_interval": 900,
+  "impersonate_dir": ""
+}

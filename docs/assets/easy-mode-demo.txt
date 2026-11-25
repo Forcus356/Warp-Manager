@@ -1,0 +1,11 @@
+DEMO: synthetic state rendered by the actual console; no live exit is certified.
+
+Easy · экземпляр 1 · Gemini
+1. Режим: gemini
+2. Формат подключения: xray
+3. SOCKS-порт: 40010
+4. Канал VPS / цель автопула, Гбит/с: 1
+5. HTTP-прокси: True
+6. Watchdog, минуты: 1.0
+7. Туннелей / лимит автопула вместе с резервом: 12
+y. Просмотреть и применить   0. Отменить

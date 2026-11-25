@@ -1,0 +1,100 @@
+{
+  "check_interval": 60,
+  "gemini_interval": 600,
+  "health_ttl": 360,
+  "rotation_delay": 20,
+  "max_backoff": 900,
+  "bad_ip_ttl": 3600,
+  "max_rotations_per_hour": 12,
+  "rotation_method": "registration",
+  "deny_regions": [
+    "RU"
+  ],
+  "listen_port": 40012,
+  "bad_threshold": 2,
+  "fail_threshold": 3,
+  "confirmation_delay": 5,
+  "min_speed_kib": 1500,
+  "probe_mb": 4,
+  "slow_threshold": 2,
+  "speed_interval": 900,
+  "impersonate_dir": "",
+  "gemini_check": false,
+  "instance": 2,
+  "listen_host": "127.0.0.1",
+  "http_port": 40013,
+  "youtube_mode": true,
+  "allow_regions": [],
+  "wait_timeout": 75,
+  "menu_mode": "easy",
+  "connection_type": "xray",
+  "selection_strategy": "failover",
+  "target_gbps": 1,
+  "capacity_seconds": 6,
+  "capacity_interval": 900,
+  "capacity_sample_ttl": 2400,
+  "capacity_parallel_search": 2,
+  "capacity_url": "https://speed.cloudflare.com/__down?bytes=8000000",
+  "nodes": [
+    {
+      "name": "warp1",
+      "container": "wgp2-warp1",
+      "port": 41043
+    },
+    {
+      "name": "warp2",
+      "container": "wgp2-warp2",
+      "port": 41044
+    },
+    {
+      "name": "warp3",
+      "container": "wgp2-warp3",
+      "port": 41045
+    },
+    {
+      "name": "warp4",
+      "container": "wgp2-warp4",
+      "port": 41046
+    },
+    {
+      "name": "warp5",
+      "container": "wgp2-warp5",
+      "port": 41047
+    },
+    {
+      "name": "warp6",
+      "container": "wgp2-warp6",
+      "port": 41048
+    },
+    {
+      "name": "warp7",
+      "container": "wgp2-warp7",
+      "port": 41049
+    },
+    {
+      "name": "warp8",
+      "container": "wgp2-warp8",
+      "port": 41050
+    },
+    {
+      "name": "warp9",
+      "container": "wgp2-warp9",
+      "port": 41051
+    },
+    {
+      "name": "warp10",
+      "container": "wgp2-warp10",
+      "port": 41052
+    },
+    {
+      "name": "warp11",
+      "container": "wgp2-warp11",
+      "port": 41053
+    },
+    {
+      "name": "warp12",
+      "container": "wgp2-warp12",
+      "port": 41054
+    }
+  ]
+}

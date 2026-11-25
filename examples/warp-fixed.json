@@ -1,0 +1,53 @@
+{
+  "check_interval": 60,
+  "gemini_interval": 600,
+  "health_ttl": 360,
+  "rotation_delay": 20,
+  "max_backoff": 900,
+  "bad_ip_ttl": 3600,
+  "max_rotations_per_hour": 12,
+  "rotation_method": "registration",
+  "deny_regions": [],
+  "listen_port": 40014,
+  "bad_threshold": 2,
+  "fail_threshold": 3,
+  "confirmation_delay": 5,
+  "min_speed_kib": 0,
+  "probe_mb": 4,
+  "slow_threshold": 2,
+  "speed_interval": 900,
+  "impersonate_dir": "",
+  "gemini_check": false,
+  "instance": 3,
+  "listen_host": "127.0.0.1",
+  "http_port": 40015,
+  "youtube_mode": false,
+  "allow_regions": [],
+  "wait_timeout": 75,
+  "menu_mode": "easy",
+  "connection_type": "xray",
+  "selection_strategy": "failover",
+  "target_gbps": 0,
+  "capacity_seconds": 6,
+  "capacity_interval": 900,
+  "capacity_sample_ttl": 2400,
+  "capacity_parallel_search": 2,
+  "capacity_url": "https://speed.cloudflare.com/__down?bytes=8000000",
+  "nodes": [
+    {
+      "name": "warp1",
+      "container": "wgp3-warp1",
+      "port": 41075
+    },
+    {
+      "name": "warp2",
+      "container": "wgp3-warp2",
+      "port": 41076
+    },
+    {
+      "name": "warp3",
+      "container": "wgp3-warp3",
+      "port": 41077
+    }
+  ]
+}

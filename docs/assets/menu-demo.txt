@@ -1,0 +1,35 @@
+DEMO: synthetic state rendered by the actual console; no live exit is certified.
+
+Warp-Manager 0.4.1
+
+Шаблоны
+Экземпляр 1 · Gemini · v0.4.1
+SOCKS 127.0.0.1:40010 | HTTP 40011 | служба active | автозапуск enabled
+Проверено 0/4; разных IP: 0; выбор: weighted_capacity; выход: нет
+Автопул: цель 1 Гбит/с; общий замер ещё не подтверждена; SEARCHING
+Рабочих 0; резерв 0/0; запущено 2/4
+   warp1: SEARCH STARTING / GOOGLE; Google=—; Gemini=—; —; TCP=0
+    —; Проверка выхода; ротаций=0; пауза=0 с
+   warp2: SEARCH STARTING / GOOGLE; Google=—; Gemini=—; —; TCP=0
+    —; Проверка выхода; ротаций=0; пауза=0 с
+   warp3: DORMANT DORMANT / DORMANT; Google=—; Gemini=—; —; TCP=0
+    —; ; ротаций=0; пауза=0 с
+   warp4: DORMANT DORMANT / DORMANT; Google=—; Gemini=—; —; TCP=0
+    —; ; ротаций=0; пауза=0 с
+Экземпляр 2 · YouTube · v0.4.1
+SOCKS 127.0.0.1:40012 | HTTP 40013 | служба active | автозапуск enabled
+Проверено 0/4; разных IP: 0; выбор: weighted_capacity; выход: нет
+Автопул: цель 0.1 Гбит/с; общий замер ещё не подтверждена; SEARCHING
+Рабочих 0; резерв 0/0; запущено 2/4
+YouTube: SEARCHING
+   warp1: SEARCH STARTING / GOOGLE; Google=—; Gemini=—; —; TCP=0
+    —; Проверка выхода; ротаций=0; пауза=0 с
+   warp2: SEARCH STARTING / GOOGLE; Google=—; Gemini=—; —; TCP=0
+    —; Проверка выхода; ротаций=0; пауза=0 с
+   warp3: DORMANT DORMANT / DORMANT; Google=—; Gemini=—; —; TCP=0
+    —; ; ротаций=0; пауза=0 с
+   warp4: DORMANT DORMANT / DORMANT; Google=—; Gemini=—; —; TCP=0
+    —; ; ротаций=0; пауза=0 с
+Выбран для изменения: 1
+1 Easy  2 Advanced  3 Операции  4 Выбрать экземпляр  5 Обновить
+t Шаблоны  c Создать экземпляр  r Обновить обзор  0 Выход

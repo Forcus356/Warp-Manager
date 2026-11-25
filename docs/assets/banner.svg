@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="250" viewBox="0 0 1280 250" role="img" aria-labelledby="title desc">
+  <title id="title">Warp-Manager</title>
+  <desc id="desc">Cloudflare WARP pools with independent Gemini and YouTube policies, capacity targets and hot spares. An architectural illustration, not a speed measurement.</desc>
+  <rect width="1280" height="250" rx="24" fill="#0b1424"/>
+  <rect x="0" y="0" width="9" height="250" rx="4" fill="#38bdf8"/>
+  <g font-family="Arial, sans-serif">
+    <text x="48" y="78" font-size="43" font-weight="700" fill="#f8fafc">Warp-Manager</text>
+    <text x="50" y="117" font-size="20" fill="#94a3b8">Cloudflare WARP · Gemini · YouTube</text>
+    <text x="50" y="162" font-size="17" fill="#bae6fd">Gbit/s targets  /  weighted connections  /  per-tunnel watchdogs</text>
+    <rect x="49" y="187" width="120" height="29" rx="14" fill="#153347"/>
+    <text x="69" y="207" font-size="14" fill="#7dd3fc">Linux VPS</text>
+    <rect x="185" y="187" width="136" height="29" rx="14" fill="#163b33"/>
+    <text x="204" y="207" font-size="14" fill="#6ee7b7">Hot spares</text>
+  </g>
+  <g stroke="#38bdf8" stroke-width="3" fill="none">
+    <path d="M867 126 L961 58 M867 126 L1010 123 M867 126 L961 190"/>
+    <path d="M867 126 L1185 192" stroke="#34d399" stroke-dasharray="7 7"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="796" y="95" width="138" height="62" rx="14" fill="#142d45" stroke="#38bdf8"/>
+    <text x="865" y="132" font-size="20" fill="#e0f2fe">POOL</text>
+    <circle cx="984" cy="48" r="27" fill="#12304a" stroke="#38bdf8"/>
+    <circle cx="1040" cy="123" r="27" fill="#12304a" stroke="#38bdf8"/>
+    <circle cx="984" cy="201" r="27" fill="#12304a" stroke="#38bdf8"/>
+    <circle cx="1190" cy="201" r="27" fill="#123a32" stroke="#34d399"/>
+    <text x="984" y="55" font-size="20" fill="#bae6fd">1</text>
+    <text x="1040" y="130" font-size="20" fill="#bae6fd">2</text>
+    <text x="984" y="208" font-size="20" fill="#bae6fd">3</text>
+    <text x="1190" y="208" font-size="20" fill="#6ee7b7">R</text>
+    <text x="1185" y="155" font-size="14" fill="#6ee7b7">RESERVE</text>
+  </g>
+</svg>

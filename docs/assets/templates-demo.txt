@@ -1,0 +1,9 @@
+DEMO: synthetic state rendered by the actual console; no live exit is certified.
+1 Gemini: да / YouTube: да
+2 Gemini: да / YouTube: нет
+3 Gemini: нет / YouTube: да
+g Отметить существующие экземпляры как шаблон
+0 Назад
+Будут созданы новые независимые экземпляры:
+1 Gemini SOCKS 40010 туннелей 3
+2 YouTube SOCKS 40012 туннелей 1
